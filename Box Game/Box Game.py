@@ -52,6 +52,8 @@ def draw_loosing_screen(score):
     score_phrase_rect.centery = 350
     WINDOW.blit(score_phrase, score_phrase_rect)
     pygame.display.update()
+    time.sleep(3)
+    mainloop()
 
 def mainloop():
     score = 0
